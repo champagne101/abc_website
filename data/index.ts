@@ -1,5 +1,3 @@
-import { link } from "fs";
-
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -15,7 +13,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "collaboration.png",
     spareImg: "",
   },
   {
@@ -56,7 +54,7 @@ export const gridItems = [
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    img: "/code.png",
     spareImg: "/grid.svg",
   },
   {
@@ -76,31 +74,31 @@ export const projects = [
     id: 1,
     title: "Decentralized Voting System",
     des: "A secure and transparent platform enabling users to cast votes on various proposals and elections.",
-    img: "/p1.svg",
+    img: "/cryptovote.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://cryptovotes.vercel.app/",
   },
   {
     id: 2,
-    title: "SxpceDrive - Sharing Encrypted Files",
+    title: "SpxceDrive - Sharing Encrypted Files",
     des: "A cutting-edge platform for securely sharing and storing files. Utilizing advanced encryption technology, SxpceDrive ensures your data remains private and protected, offering a seamless and reliable solution for all your file-sharing needs.",
-    img: "/p1.svg",
+    img: "/spxcedrive.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg"],
-    link: "/ui.yoom.com",
+    link: "https://spxce.vercel.app/",
   },
   {
     id: 3,
     title: "7EduPact - Decentralized Education",
     des: "A revolutionary platform transforming the education landscape by leveraging blockchain technology. 7EduPact enables secure, transparent, and decentralized learning environments, empowering educators and students to connect and collaborate globally while ensuring the integrity and accessibility of educational resources.",
-    img: "/p1.svg",
+    img: "/7edupact.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://7-edu-pact.vercel.app/",
   },
   {
     id: 4,
     title: "Decentralized Agriculture Marketplace",
     des: "A cutting-edge platform revolutionizing the agricultural sector by connecting farmers, buyers, and suppliers directly through blockchain technology. This marketplace ensures transparency, fair pricing, and secure transactions, empowering farmers and streamlining the supply chain for agricultural products.",
-    img: "/p1.svg",
+    img: "/harvestchain.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "/ui.apple.com",
   },
