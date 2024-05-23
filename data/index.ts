@@ -82,7 +82,7 @@ export const projects = [
     id: 2,
     title: "SpxceDrive - Sharing Encrypted Files",
     des: "A cutting-edge platform for securely sharing and storing files. Utilizing advanced encryption technology, SxpceDrive ensures your data remains private and protected, offering a seamless and reliable solution for all your file-sharing needs.",
-    img: "/spxcedrive.svg",
+    img: "/spxcedrive.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg"],
     link: "https://spxce.vercel.app/",
   },
