@@ -62,7 +62,7 @@ const Hero = () => {
             Welcome to the Africa&apos;s Blockchain Club Website.
           </p>
 
-          <a href="#about">
+          <a href="#projects">
             <MagicButton
               title="Projects"
               icon={<FaLocationArrow />}
